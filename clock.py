@@ -11,6 +11,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 if __name__ == "__main__":
     def tasks():
+        print("Scheduling started")
         t1 = time()
         old = get_old_followers(tw_username)
         new = get_new_followers(tw_username)
