@@ -3,7 +3,7 @@ def generate_dm_text(name):
 	return '''Hey {}, It great to connect
 			with you on twitter !! \n\n I'm BOT. We are good in Twitter and Instagram BOT. \n\n Auto ReTweet, Direct Message and Auto instgram Post & Like. 😊😊  '''.format(name)
 
-scheduler_time =2  #15 in minutes
+scheduler_time =15  #15 in minutes
 
 tw_username = "tamil_ai" #change this to yours
 
